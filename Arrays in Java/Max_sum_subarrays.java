@@ -79,7 +79,7 @@ public class Max_sum_subarrays {
     public static void main(String[] args) {
         int arr[] = {1,-2,3,-4,8,5,7,-9,10};
         // Using Brute Force Method
-        maxSum_subarray(arr );
+        maxSum_subarray(arr);
 
         // Using Prefix Sum Array Method. Below used function is have less time complexity than 1st one.
         maxSum_effective(arr);

@@ -10,7 +10,7 @@ public class Binary_Search {
             if(arr[mid] == key) {
                 return mid;
             }
-            if(arr[mid] < key) {
+            else if(arr[mid] < key) {
                 start = mid+1;
             }
             else if(arr[mid] > key){
@@ -22,7 +22,7 @@ public class Binary_Search {
     public static void main(String[] args) {
         // For binary search Enter a sorted array. 
         int arr[] = {3,6,9,12,15,18,21,24,27,30,33,36};
-        int key = 1;
+        int key = 30;
         
         System.out.println("Index for key is : " + binarySearch(arr, key));
     }
