@@ -14,5 +14,5 @@ public class Pairs_in_an_array {
     public static void main(String[] args) {
         int num[] = {1,2,4,7,8,5,6};
         printPairs(num);
-       }
+    }
 }
