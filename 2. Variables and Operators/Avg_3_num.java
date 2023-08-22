@@ -7,7 +7,7 @@ public class Avg_3_num {
         double n1 = sc.nextDouble();
         double n2 = sc.nextDouble();
         double n3 = sc.nextDouble();
-        double avg = (n1 + n2 + n3)/3;
+        double avg = (n1 + n2 + n3) / 3;
         System.out.println("Average of three numbers : " + avg);
         sc.close();
     }
